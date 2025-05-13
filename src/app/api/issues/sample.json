@@ -1,0 +1,1146 @@
+{
+    "issues": [
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "42574",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/42574",
+            "key": "KIK-349",
+            "fields": {
+                "summary": "トップページスライド３の差し替えととガイドSTEP2の説明修正",
+                "assignee": null,
+                "updated": "2025-05-07T15:46:37.790+0900",
+                "created": "2025-05-07T15:45:58.849+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10461",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "RITレビュー中",
+                    "id": "10461",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "進行中"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "42246",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/42246",
+            "key": "KIK-332",
+            "fields": {
+                "summary": "ユーザーの作成日時がデプロイ時刻になってしまっている",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3Afe101042-e795-49fb-beb6-d2695c7897f5",
+                    "accountId": "712020:fe101042-e795-49fb-beb6-d2695c7897f5",
+                    "emailAddress": "sousuke.miyata@rit-inc.co.jp",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/32"
+                    },
+                    "displayName": "宮田　爽助",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-22T15:12:13.482+0900",
+                "created": "2025-04-15T14:36:44.259+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10460",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "完了",
+                    "id": "10460",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "完了"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "42137",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/42137",
+            "key": "KIK-331",
+            "fields": {
+                "summary": "renovateの設定",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3Afe101042-e795-49fb-beb6-d2695c7897f5",
+                    "accountId": "712020:fe101042-e795-49fb-beb6-d2695c7897f5",
+                    "emailAddress": "sousuke.miyata@rit-inc.co.jp",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/32"
+                    },
+                    "displayName": "宮田　爽助",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-22T15:11:36.179+0900",
+                "created": "2025-04-09T10:54:31.872+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10460",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "完了",
+                    "id": "10460",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "完了"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "42134",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/42134",
+            "key": "KIK-330",
+            "fields": {
+                "summary": "KUROCOの移管",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3A771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "accountId": "712020:771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "24x24": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "16x16": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "32x32": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png"
+                    },
+                    "displayName": "西村勇哉",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-30T13:26:52.961+0900",
+                "created": "2025-04-08T16:32:26.435+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10461",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "RITレビュー中",
+                    "id": "10461",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "進行中"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "42133",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/42133",
+            "key": "KIK-329",
+            "fields": {
+                "summary": "引き継ぎ資料の準備",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3A771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "accountId": "712020:771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "24x24": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "16x16": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "32x32": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png"
+                    },
+                    "displayName": "西村勇哉",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-22T15:16:20.389+0900",
+                "created": "2025-04-08T16:23:55.211+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10462",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "キッカケレビュー待ち",
+                    "id": "10462",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "進行中"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "42122",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/42122",
+            "key": "KIK-325",
+            "fields": {
+                "summary": "◎メディア掲載・リンク紹介用のページを表示できる",
+                "assignee": null,
+                "updated": "2025-04-22T16:14:18.898+0900",
+                "created": "2025-04-07T18:22:31.666+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10458",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10458",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "42035",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/42035",
+            "key": "KIK-323",
+            "fields": {
+                "summary": "汎用エラー画面",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=5cec9ad4e2e3ec0fc196c5b7",
+                    "accountId": "5cec9ad4e2e3ec0fc196c5b7",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/32"
+                    },
+                    "displayName": "Tetsuya Fukuda",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-22T15:22:15.179+0900",
+                "created": "2025-03-25T14:05:58.180+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10459",
+                    "description": "この作業項目は担当者によって現在作業が進められていることを表します。",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "進行中",
+                    "id": "10459",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "進行中"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "42034",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/42034",
+            "key": "KIK-322",
+            "fields": {
+                "summary": "アンケート作成時に、回答がどのように共有されるのかを伝える文言を入れる",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=5cec9ad4e2e3ec0fc196c5b7",
+                    "accountId": "5cec9ad4e2e3ec0fc196c5b7",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/32"
+                    },
+                    "displayName": "Tetsuya Fukuda",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-30T13:06:44.237+0900",
+                "created": "2025-03-25T14:04:58.594+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10460",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "完了",
+                    "id": "10460",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "完了"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "42033",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/42033",
+            "key": "KIK-321",
+            "fields": {
+                "summary": "公開終了したアンケートは見せないように",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3A771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "accountId": "712020:771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "24x24": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "16x16": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "32x32": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png"
+                    },
+                    "displayName": "西村勇哉",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-22T10:16:50.863+0900",
+                "created": "2025-03-25T13:58:41.445+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10460",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "完了",
+                    "id": "10460",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "完了"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "42032",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/42032",
+            "key": "KIK-320",
+            "fields": {
+                "summary": "アンケートを管理者が作成したときに管理者作成タブに戻るように",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=5cec9ad4e2e3ec0fc196c5b7",
+                    "accountId": "5cec9ad4e2e3ec0fc196c5b7",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/32"
+                    },
+                    "displayName": "Tetsuya Fukuda",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-30T13:08:12.414+0900",
+                "created": "2025-03-25T13:28:05.010+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10460",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "完了",
+                    "id": "10460",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "完了"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "41924",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/41924",
+            "key": "KIK-308",
+            "fields": {
+                "summary": "タグのボタンデザインを、カテゴリのボタンデザインのものに合わせる",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3A771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "accountId": "712020:771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "24x24": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "16x16": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "32x32": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png"
+                    },
+                    "displayName": "西村勇哉",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-22T15:37:55.892+0900",
+                "created": "2025-03-07T19:36:38.825+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10460",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "完了",
+                    "id": "10460",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "完了"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "41783",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/41783",
+            "key": "KIK-302",
+            "fields": {
+                "summary": "ステータスの「審査中」と「申請」で表記揺れ",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3A771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "accountId": "712020:771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "24x24": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "16x16": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "32x32": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png"
+                    },
+                    "displayName": "西村勇哉",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-22T10:15:48.575+0900",
+                "created": "2025-02-25T17:07:42.356+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10462",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "キッカケレビュー待ち",
+                    "id": "10462",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "進行中"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "41765",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/41765",
+            "key": "KIK-296",
+            "fields": {
+                "summary": "CSVでアップロードしたユーザIDのリストからアンケートを配信できる",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=5cec9ad4e2e3ec0fc196c5b7",
+                    "accountId": "5cec9ad4e2e3ec0fc196c5b7",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/32"
+                    },
+                    "displayName": "Tetsuya Fukuda",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-30T13:04:35.547+0900",
+                "created": "2025-02-25T15:58:25.512+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10460",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "完了",
+                    "id": "10460",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "完了"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "41628",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/41628",
+            "key": "KIK-288",
+            "fields": {
+                "summary": "構造化データマークアップの設定をする",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3A771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "accountId": "712020:771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "24x24": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "16x16": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "32x32": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png"
+                    },
+                    "displayName": "西村勇哉",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-22T15:54:44.445+0900",
+                "created": "2025-02-13T15:45:53.381+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10460",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "完了",
+                    "id": "10460",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "完了"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "41461",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/41461",
+            "key": "KIK-286",
+            "fields": {
+                "summary": "広告の管理方法検討",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3A771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "accountId": "712020:771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "24x24": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "16x16": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "32x32": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png"
+                    },
+                    "displayName": "西村勇哉",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-22T10:23:25.747+0900",
+                "created": "2025-01-28T16:30:51.239+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10458",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10458",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "41453",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/41453",
+            "key": "KIK-278",
+            "fields": {
+                "summary": "クイズの並び順",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3Afe101042-e795-49fb-beb6-d2695c7897f5",
+                    "accountId": "712020:fe101042-e795-49fb-beb6-d2695c7897f5",
+                    "emailAddress": "sousuke.miyata@rit-inc.co.jp",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/32"
+                    },
+                    "displayName": "宮田　爽助",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-30T13:13:04.780+0900",
+                "created": "2025-01-28T16:06:25.918+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10460",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "完了",
+                    "id": "10460",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "完了"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "41355",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/41355",
+            "key": "KIK-270",
+            "fields": {
+                "summary": "記事カードにカテゴリを表示する",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3Afe101042-e795-49fb-beb6-d2695c7897f5",
+                    "accountId": "712020:fe101042-e795-49fb-beb6-d2695c7897f5",
+                    "emailAddress": "sousuke.miyata@rit-inc.co.jp",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/32"
+                    },
+                    "displayName": "宮田　爽助",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-30T13:13:29.771+0900",
+                "created": "2025-01-21T14:11:34.295+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10460",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "完了",
+                    "id": "10460",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "完了"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "41351",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/41351",
+            "key": "KIK-267",
+            "fields": {
+                "summary": "kurocoのAPIを過剰に呼び出している原因調査",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=5cec9ad4e2e3ec0fc196c5b7",
+                    "accountId": "5cec9ad4e2e3ec0fc196c5b7",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cec9ad4e2e3ec0fc196c5b7/32f3da7f-a478-4f67-bf70-31beafc21f4c/32"
+                    },
+                    "displayName": "Tetsuya Fukuda",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-30T13:11:37.112+0900",
+                "created": "2025-01-21T13:23:54.463+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10460",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "完了",
+                    "id": "10460",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "完了"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "41343",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/41343",
+            "key": "KIK-265",
+            "fields": {
+                "summary": "◎ブラウザタブの表示タイトルとして、ページごとのタイトルが表示されるようにする",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3A771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "accountId": "712020:771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "24x24": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "16x16": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "32x32": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png"
+                    },
+                    "displayName": "西村勇哉",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-22T15:27:09.875+0900",
+                "created": "2025-01-20T17:03:21.268+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10462",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "キッカケレビュー待ち",
+                    "id": "10462",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "進行中"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "41342",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/41342",
+            "key": "KIK-264",
+            "fields": {
+                "summary": "個人情報取扱同意書内のお問い合わせフォームを別タブで開くようにする",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3A771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "accountId": "712020:771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "24x24": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "16x16": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "32x32": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png"
+                    },
+                    "displayName": "西村勇哉",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-22T15:32:46.701+0900",
+                "created": "2025-01-20T16:59:11.217+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10460",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "完了",
+                    "id": "10460",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "完了"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "40560",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/40560",
+            "key": "KIK-245",
+            "fields": {
+                "summary": "記事詳細にカテゴリを表示する",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3A771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "accountId": "712020:771e157f-df26-4e1b-bd8f-cc9dca168c8f",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "24x24": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "16x16": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png",
+                        "32x32": "https://secure.gravatar.com/avatar/422127b59db1fc6a620cf4ceb2fc12a6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-1.png"
+                    },
+                    "displayName": "西村勇哉",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-22T15:38:35.523+0900",
+                "created": "2024-12-17T11:14:20.933+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10460",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "完了",
+                    "id": "10460",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "完了"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "40556",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/40556",
+            "key": "KIK-243",
+            "fields": {
+                "summary": "OGPの設定をする",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3Afe101042-e795-49fb-beb6-d2695c7897f5",
+                    "accountId": "712020:fe101042-e795-49fb-beb6-d2695c7897f5",
+                    "emailAddress": "sousuke.miyata@rit-inc.co.jp",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/32"
+                    },
+                    "displayName": "宮田　爽助",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-30T13:15:30.607+0900",
+                "created": "2024-12-17T09:50:25.265+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10460",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "完了",
+                    "id": "10460",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "完了"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "39616",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/39616",
+            "key": "KIK-185",
+            "fields": {
+                "summary": "★基本情報・詳細情報の内容を更新ボタンを押したときに、ポップアップで更新が完了したことを通知したい",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3A3f92d25c-f3dd-4a1c-9c90-85964d07f40e",
+                    "accountId": "712020:3f92d25c-f3dd-4a1c-9c90-85964d07f40e",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/36649d04b5fba26d03590ec6c20bb6e9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/36649d04b5fba26d03590ec6c20bb6e9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-2.png",
+                        "16x16": "https://secure.gravatar.com/avatar/36649d04b5fba26d03590ec6c20bb6e9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/36649d04b5fba26d03590ec6c20bb6e9?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Fdefault-avatar-2.png"
+                    },
+                    "displayName": "河村 直樹",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-30T13:19:21.336+0900",
+                "created": "2024-10-18T15:27:35.823+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10460",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "完了",
+                    "id": "10460",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/3",
+                        "id": 3,
+                        "key": "done",
+                        "colorName": "green",
+                        "name": "完了"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "38705",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/38705",
+            "key": "KIK-106",
+            "fields": {
+                "summary": "★初回登録フローのユーザー情報モーダルでの「スキップ」と「次へ」の内容を変更する",
+                "assignee": null,
+                "updated": "2025-04-24T19:51:42.905+0900",
+                "created": "2024-08-06T19:21:14.534+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10458",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10458",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "38338",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/38338",
+            "key": "KIK-82",
+            "fields": {
+                "summary": "〇会員が、ユーザーに紹介コードを送付できる",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3Afe101042-e795-49fb-beb6-d2695c7897f5",
+                    "accountId": "712020:fe101042-e795-49fb-beb6-d2695c7897f5",
+                    "emailAddress": "sousuke.miyata@rit-inc.co.jp",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/32"
+                    },
+                    "displayName": "宮田　爽助",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-08T16:23:07.522+0900",
+                "created": "2024-07-11T12:54:44.869+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10461",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "RITレビュー中",
+                    "id": "10461",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "進行中"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "38336",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/38336",
+            "key": "KIK-81",
+            "fields": {
+                "summary": "〇運営が、ユーザーに紹介コードを送付できる",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3Afe101042-e795-49fb-beb6-d2695c7897f5",
+                    "accountId": "712020:fe101042-e795-49fb-beb6-d2695c7897f5",
+                    "emailAddress": "sousuke.miyata@rit-inc.co.jp",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/32"
+                    },
+                    "displayName": "宮田　爽助",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-09T10:46:12.585+0900",
+                "created": "2024-07-11T12:43:03.652+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10461",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "RITレビュー中",
+                    "id": "10461",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "進行中"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "38335",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/38335",
+            "key": "KIK-80",
+            "fields": {
+                "summary": "〇運営が、紹介コードで付与できるポイント数を設定できる",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3Afe101042-e795-49fb-beb6-d2695c7897f5",
+                    "accountId": "712020:fe101042-e795-49fb-beb6-d2695c7897f5",
+                    "emailAddress": "sousuke.miyata@rit-inc.co.jp",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/32"
+                    },
+                    "displayName": "宮田　爽助",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-30T13:33:48.580+0900",
+                "created": "2024-07-11T12:42:34.323+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10462",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "キッカケレビュー待ち",
+                    "id": "10462",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "進行中"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "38334",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/38334",
+            "key": "KIK-79",
+            "fields": {
+                "summary": "〇運営が、紹介コードを作成できる",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3Afe101042-e795-49fb-beb6-d2695c7897f5",
+                    "accountId": "712020:fe101042-e795-49fb-beb6-d2695c7897f5",
+                    "emailAddress": "sousuke.miyata@rit-inc.co.jp",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/32"
+                    },
+                    "displayName": "宮田　爽助",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-30T13:33:45.899+0900",
+                "created": "2024-07-11T12:41:54.248+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10462",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "キッカケレビュー待ち",
+                    "id": "10462",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "進行中"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "38252",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/38252",
+            "key": "KIK-54",
+            "fields": {
+                "summary": "〇会員が、紹介コードを作成できる",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3Afe101042-e795-49fb-beb6-d2695c7897f5",
+                    "accountId": "712020:fe101042-e795-49fb-beb6-d2695c7897f5",
+                    "emailAddress": "sousuke.miyata@rit-inc.co.jp",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/32"
+                    },
+                    "displayName": "宮田　爽助",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-08T16:23:07.507+0900",
+                "created": "2024-07-09T11:42:14.669+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10461",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "RITレビュー中",
+                    "id": "10461",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "進行中"
+                    }
+                }
+            }
+        },
+        {
+            "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+            "id": "38251",
+            "self": "https://rit.atlassian.net/rest/api/3/issue/38251",
+            "key": "KIK-53",
+            "fields": {
+                "summary": "〇ユーザーが、紹介コードを登録するとポイントを獲得できる",
+                "assignee": {
+                    "self": "https://rit.atlassian.net/rest/api/3/user?accountId=712020%3Afe101042-e795-49fb-beb6-d2695c7897f5",
+                    "accountId": "712020:fe101042-e795-49fb-beb6-d2695c7897f5",
+                    "emailAddress": "sousuke.miyata@rit-inc.co.jp",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/48",
+                        "24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/24",
+                        "16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/16",
+                        "32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:fe101042-e795-49fb-beb6-d2695c7897f5/08435151-ca33-4020-950a-f1242b2b5bfb/32"
+                    },
+                    "displayName": "宮田　爽助",
+                    "active": true,
+                    "timeZone": "Asia/Tokyo",
+                    "accountType": "atlassian"
+                },
+                "updated": "2025-04-10T10:33:16.595+0900",
+                "created": "2024-07-09T11:41:35.062+0900",
+                "status": {
+                    "self": "https://rit.atlassian.net/rest/api/3/status/10461",
+                    "description": "",
+                    "iconUrl": "https://rit.atlassian.net/",
+                    "name": "RITレビュー中",
+                    "id": "10461",
+                    "statusCategory": {
+                        "self": "https://rit.atlassian.net/rest/api/3/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "進行中"
+                    }
+                }
+            }
+        }
+    ]
+}

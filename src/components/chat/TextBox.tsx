@@ -25,6 +25,8 @@ export default function TextBox() {
             })
         })
         const data = await res.json();
+        
+        console.log(data);
         addChatLog({ content: input, role: "user" });
         addChatLog({ content: data.message.content, role: "assistant" });
 
