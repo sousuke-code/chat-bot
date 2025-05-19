@@ -1,6 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import type { ReviewFormat } from "@/lib/reviewFormatSchema";
-import type { z } from "zod";
 
 
 export default function SummaryCard({review} : { review: ReviewFormat}){
