@@ -1,14 +1,25 @@
-# Chatbot & Jira Integration App
+# AI-Powered Jira Sprint Review Tool (for "KIK" Project)
 
-A Next.js application featuring an AI-powered chatbot and Jira integration capabilities.
+An application that analyzes Jira sprint data for a specific project (currently hardcoded to "KIK") and generates an AI-powered review of the sprint's progress in **Japanese**. This tool is aimed at project managers, scrum masters, and development teams to help them understand sprint dynamics and identify areas for improvement.
 
 ## Features
 
-*   **AI Chatbot:** An intelligent chatbot powered by the OpenAI API, capable of understanding natural language and providing assistance. Supports Markdown rendering for formatted responses.
-*   **Jira Integration:** Seamlessly connect to Jira to fetch, display, and visualize data. Includes features like:
-    *   Data visualization using charts (Chart.js/Recharts).
-    *   Fetching and displaying Jira issues.
-    *   (Add any other specific Jira features observed here)
+*   **AI-Powered Sprint Review (in Japanese):**
+    *   Generates a comprehensive sprint review using the OpenAI API (gpt-4.1 model).
+    *   The review is provided in Markdown format and displayed using the `SummaryCard.tsx` component.
+    *   **Review Coverage (based on system prompt in `src/app/api/review/route.ts`):**
+        *   Overall progress: Total ticket counts, progress by status (completed, in-progress, to-do) with counts and percentages.
+        *   Progress per assignee: Ticket counts and progress for each assignee.
+        *   Task concentration: Identifies if tasks are concentrated on specific members or if there are unassigned tickets.
+        *   Stale tickets: Pinpoints tickets that have not been updated for a certain period.
+        *   Work balance: Assesses the distribution of work among team members.
+        *   Recommended next actions: Suggests adjustments for the team based on the analysis.
+
+*   **Jira Integration:**
+    *   Fetches issues from open sprints for a specific Jira project (currently hardcoded to "KIK"). This includes fields like issue key, summary, status, assignee, created, and updated dates.
+    *   **Sprint Selection & Review:** The `SprintTab` component allows users to select a specific sprint, which then triggers the AI review generation for that sprint.
+    *   **Employee-Specific View:** The `EmployeeTab` component enables viewing issues assigned to a particular employee, visualized with a bar chart (`IssueBarChartByEmployee.tsx`) showing issue counts by status.
+    *   **Data Visualization:** Includes various charts for visualizing issue distributions and sprint progress, such as `IssueChart.tsx` (e.g., overall issue status distribution) and `IssuesPieChart.tsx` (e.g., issue distribution by assignee or status).
 
 ## Technologies Used
 
@@ -19,9 +30,20 @@ A Next.js application featuring an AI-powered chatbot and Jira integration capab
     *   Zustand (for state management)
     *   Chart.js/Recharts (for data visualization)
 *   **Backend & Services:**
-    *   OpenAI API (for the AI chatbot)
-    *   Jira API (using `jira-connector` or `jira.js` - *developer to confirm specific library if used*)
+    *   OpenAI API (using the `gpt-4.1` model for the AI review)
+    *   Jira API (using `jira.js`)
     *   Supabase (for backend services like database and authentication)
+
+## Important Notes / Limitations
+
+*   **Hardcoded Jira Project Key:** The Jira project key is currently hardcoded as "KIK" in several API routes, including:
+    *   `src/app/api/issues/route.ts`
+    *   `src/app/api/review/route.ts`
+    *   `src/app/api/issues/[employeeName]/route.ts`
+    *   `src/app/api/sprint/route.ts`
+    Users **must** modify this key in these files to point to their own Jira project.
+*   **JQL Queries:** The JQL queries (e.g., `project = KIK AND sprint in openSprints()`) used to fetch Jira data are specific to this hardcoded project. Users may need to adjust these queries based on their Jira project setup and desired filtering.
+*   **AI Review Language:** The AI-generated sprint review is currently configured to be in **Japanese**.
 
 ## Getting Started / Setup Instructions
 
