@@ -69,11 +69,12 @@ export default function ReviewPage() {
               <CardHeader>
                 <CardTitle>総評</CardTitle>
                 <CardContent>
-                  {review.suggestions.map((summary) => (
+                  {/* {review.suggestions.map((summary) => (
                     <>
                       <p>{summary}</p>
                     </>
-                  ))}
+                  ))} */}
+                  { review.suggestions }
                 </CardContent>
               </CardHeader>
             </Card>

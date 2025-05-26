@@ -4,6 +4,7 @@ import type { ReviewFormat } from "@/lib/reviewFormatSchema";
 
 
 export default function IssuesPieChart({ reviews} : { reviews: ReviewFormat}) {
+    
     console.log("reviews", reviews);
     const PieData = [
         { name: "完了", value: reviews.summary.statusBreakdown.done },

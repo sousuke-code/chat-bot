@@ -3,63 +3,109 @@ import { NextRequest } from "next/server";
 import { jira } from "@/lib/jiraClient";
 import { formatIssuesForReview } from "@/lib/formatJiraIssues";
 import type { ChatCompletionMessageParam } from "openai/resources.mjs";
-import { openAi } from "../../openAI/route";
+
+import { openAi, POST } from "../../openAI/route";
 import { zodResponseFormat } from "openai/helpers/zod.mjs";
+import { zodToJsonSchema } from "zod-to-json-schema";
 import { reviewFormatSchema } from "@/lib/reviewFormatSchema";
+import { format } from "path";
+import { Schema } from "zod";
+import { responseCookiesToRequestCookies } from "next/dist/server/web/spec-extension/adapters/request-cookies";
 
+export async function GET(
+  req: NextRequest,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  const { id } = await params;
 
-export async function GET(req: NextRequest, { params} : { params: Promise<{id : number}>} ){
-    const { id } = await params;
+  try {
+    const res = await jira.issueSearch.searchForIssuesUsingJqlEnhancedSearch({
+      jql: `project = KIK and sprint = ${id}`,
+      fields: ["key", "summary", "status", "assignee", "created", "updated"],
+    });
 
-    try{
-        const res = await jira.issueSearch.searchForIssuesUsingJqlEnhancedSearch({
-            jql: `projehct = KIK and id = ${id}`,
-            fields: ["key", "summary", "status", "assignee", "created", "updated"],
-        });
-
-        if (!res.issues) {
-            return NextResponse.json(
-                {
-                    error: "No issues found", 
-                },
-                {status: 404}
-            )
-        }
-
-        const formatted = formatIssuesForReview(res.issues);
-
-        const messages: ChatCompletionMessageParam[] = [
-              {
-                role: "system",
-                content: `あなたはソフトウェア開発チームのプロジェクトマネージャーです。
-                以下はJiraから取得したスプリント中の課題リストです。各課題の担当者、ステータス、内容を考慮して、次の観点でレビューを作成してください。
-                1. チケットの総数、進捗ステータス（完了、進行中、未着手）の件数と割合
-                2. 担当者ごとのチケット数と進捗状況
-                3. 特定の担当者にタスクが偏っていないか、未アサインのチケットが放置されていないか
-                4. 作成日や更新日時が古いのに進んでいないチケットはないか
-                5. 完了済みのチケットが多すぎる/少なすぎるなど、作業バランスの偏りがないか
-                6. 次のアクションとして推奨されるチーム内調整
-                出力は日本語で行い、Markdown形式で見出し・リスト・表などを使って整形してください。また、事実に基づいた客観的かつ詳細なレビュー文にしてください。`,
-              },
-              {
-                role: "user",
-                content: `以下のJiraの課題をレビューしてください。${formatted}`,
-              },
-            ];
-
-            const chat = await openAi.chat.completions.create({
-                  model: "gpt-4.1",
-                  messages: messages,
-                  response_format: zodResponseFormat(reviewFormatSchema, "review"),
-                });
-
-                return NextResponse.json({ review: chat.choices[0].message.content });
-    } catch (error ){
-        return NextResponse.json({
-            error: "Failed to fetch issues from Jira",
+    if (!res.issues) {
+      return NextResponse.json(
+        {
+          error: "No issues found",
         },
-        { status: 500 }
-    )
+        { status: 404 }
+      );
     }
 
+    const formatted = formatIssuesForReview(res.issues);
+
+    console.log("formatted---", formatted);
+
+    // const chat = await fetch("https://api.openai.com/v1/responses ", {
+    //     method: "POST",
+    //     headers: {
+    //         "Content-type": "application/json",
+    //         "Authorization": `Bearer ${process.env.OPENAI_API_KEY}`,
+    //     },
+    //     body: JSON.stringify({
+    //         model: "gpt-4.1",
+    //         input: messages,
+    //         text: zodResponseFormat(reviewFormatSchema, "review"),
+
+    //     })
+    // })
+
+    console.log("----OPENAIの呼び出し開始----");
+
+    const chat = await openAi.responses.create({
+      model: "gpt-4o",
+      // input: JSON.stringify(messages),
+      // text: {
+      //     format: {
+      //         type: "json_schema",
+      //         name: "review",
+      //         schema: zodResponseFormat(reviewFormatSchema, "review"),
+      //     }
+      // }
+      instructions: `
+              あなたはソフトウェア開発チームのプロジェクトマネージャーです。
+              以下はJiraから取得したスプリント中の課題リストです。
+              各課題の担当者、ステータス、内容を考慮して、次の観点で構造化されたレビューをJSON形式で出力してください：
+              ...
+              最後に reviewText に、これらの情報に基づいた客観的かつ詳細な日本語の総評（Markdown形式）を記述してください。
+`,
+      input: [
+        {
+          role: "user",
+          content: `以下のJiraの課題をレビューしてください。\n\n 今回のスプリント:${formatted}`,
+        },
+      ],
+      text: {
+        format: {
+          type: "json_schema",
+          name: "review",
+          schema: zodToJsonSchema(reviewFormatSchema),
+        },
+      },
+    });
+
+    console.log("----OPENAIの呼び出し終了----");
+    console.log("chat", chat);
+
+    if (chat.error) {
+      const error = chat.error.message;
+      console.log("OpenAI error", error);
+
+      return NextResponse.json(
+        { error: "Failes to fetch respose OpenAI" },
+        { status: 500 }
+      );
+    }
+
+    return NextResponse.json({ review: chat.output_text });
+  } catch (error) {
+    console.log("error", error);
+    return NextResponse.json(
+      {
+        error: "Failed to fetch issues from Jira",
+      },
+      { status: 500 }
+    );
+  }
 }

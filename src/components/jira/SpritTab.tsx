@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Button } from "../ui/button";
 import { DropdownMenu,DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "../ui/dropdown-menu";
-import { Sprout } from "lucide-react";
 
 type Sprint = {
     id: number,
@@ -14,11 +13,12 @@ export default function SprintTab({ sprints, setReview,setRoading } : { sprints:
     const handleSelect = async (sprint: Sprint) => {
         setSelectedSprint(sprint);
         setRoading(true);
-        const res = await fetch(`/api/review?sprintId=${sprint.id}`);
+        const res = await fetch(`/api/review/${sprint.id}`);
         const data = await res.json();
         setReview(JSON.parse(data.review));
         setRoading(false);
     }
+    
     return (
         <>
          <DropdownMenu>
