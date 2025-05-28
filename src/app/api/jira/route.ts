@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { jira } from "@/lib/jiraClient";
 import { headers } from "next/headers";
 import { jiraConnectorClient } from "@/lib/jiraClient";
+import { Prisma } from "@/generated/prisma";
 
 const BOARD = 107;
 

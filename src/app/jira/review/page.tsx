@@ -9,6 +9,7 @@ import EmployeeTabs from "@/components/jira/EmployeeTab";
 import SprintTab from "@/components/jira/SpritTab";
 import { Spinner }  from "@heroui/spinner/";
 import { Loader } from "lucide-react";
+import { MarkDownMessage } from "@/components/chat/MarkDownMessage";
 
 
 type Sprint =  {
@@ -43,9 +44,8 @@ export default function ReviewPage() {
     <>
       <SprintTab sprints={sprints} setReview={setReview} setRoading={setLoading} />
       
-
       {review && loading == false && (
-        <div className="m-10">
+        <div className="m-10 h-full">
           <div className="grid grid-cols-2 grid-rows-3 gap-4">
             <Card className="col-span-1 row-span-2">
               <CardHeader>
@@ -69,12 +69,7 @@ export default function ReviewPage() {
               <CardHeader>
                 <CardTitle>総評</CardTitle>
                 <CardContent>
-                  {/* {review.suggestions.map((summary) => (
-                    <>
-                      <p>{summary}</p>
-                    </>
-                  ))} */}
-                  { review.suggestions }
+                  <MarkDownMessage content={review.suggestions.map( s => `- ${s}`).join("\n") }/>
                 </CardContent>
               </CardHeader>
             </Card>

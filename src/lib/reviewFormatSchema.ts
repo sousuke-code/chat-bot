@@ -16,13 +16,15 @@ export const reviewFormatSchema = z.object({
             done: z.number(),
             inProgress: z.number(),
             toDo: z.number(),
+            summary: z.string().describe("担当者ごとのチケットの概要"),
+            completionRate: z.number().describe("担当者ごとのチケット消化率（完了数 / 担当チケット総数）"),
+            risk: z.string().describe("担当者ごとのリスク評価"),
         })
     ),
     suggestions: z.array(z.string().describe(`
         スプリント全体に対する日本語の総評文を記述してください。
         Markdown形式で出力し、以下の要素を必ず含めてください：
 
-        - 各担当者のチケット消化率（完了数 / 担当チケット総数）を明記
         - 未アサインチケットの割合とリスク
         - 完了チケットの割合が特に高い・低い担当者の傾向分析
         - 古いチケットの有無とそのリスク

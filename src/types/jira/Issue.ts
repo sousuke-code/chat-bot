@@ -7,6 +7,9 @@ const IssuesByAssginee = z.array(
         done: z.number(),
         inProgress: z.number(),
         toDo: z.number(),
+        summary: z.string(),
+        completionRate: z.number(),
+        risk: z.string(),
     })
 )
 

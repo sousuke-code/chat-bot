@@ -37,20 +37,6 @@ export async function GET(
 
     console.log("formatted---", formatted);
 
-    // const chat = await fetch("https://api.openai.com/v1/responses ", {
-    //     method: "POST",
-    //     headers: {
-    //         "Content-type": "application/json",
-    //         "Authorization": `Bearer ${process.env.OPENAI_API_KEY}`,
-    //     },
-    //     body: JSON.stringify({
-    //         model: "gpt-4.1",
-    //         input: messages,
-    //         text: zodResponseFormat(reviewFormatSchema, "review"),
-
-    //     })
-    // })
-
     console.log("----OPENAIの呼び出し開始----");
 
     const chat = await openAi.responses.create({

@@ -10,6 +10,7 @@ import {
 import type { IssuesByAssigneeType } from "@/types/jira/Issue";
 import IssueBarChartByEmployee from "./chart/IssueBarChartByEmployee";
 import type { EmployeeFormat } from "@/types/jira/employee";
+import { sleep } from "openai/core.mjs";
 
 
 
@@ -45,6 +46,27 @@ export default function EmployeeTabs(employees: {
             <IssueBarChartByEmployee employee={selectedEmployee}/>
         )}
     </div>
+
+    {selectedEmployee && (
+      <div className="rounded-lg bg-gray-100 p-4 mt-4 shadow">
+        <p>
+          <span className="font-bold">概要</span>
+          ：{selectedEmployee.summary}
+        </p>
+        <p>
+          <span className="font-bold">
+          チケット消化率
+          </span>
+          ：{selectedEmployee.completionRate}
+        </p>
+        <p>
+          <span className="font-bold">
+           リスク評価
+          </span>
+          ：{selectedEmployee.risk}
+        </p>
+      </div>
+    )}
     </>
   )
 }

@@ -1,5 +1,8 @@
 import { Version3Client } from "jira.js";
 import JiraClient from "jira-connector"
+import dotenv from "dotenv";
+
+dotenv.config();
 
 export const jira  = new Version3Client({
     host: process.env.JIRA_HOST!,

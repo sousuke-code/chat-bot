@@ -11,6 +11,9 @@ export const EmployeeSchema = z.object({
     done: z.number(),
     inProgress: z.number(),
     toDo: z.number(),
+    summary: z.string(),
+    completionRate: z.number(),
+    risk: z.string(),
 })
 
 export type EmployeeFormat = z.infer<typeof EmployeeSchema>
